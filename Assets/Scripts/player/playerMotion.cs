@@ -2,6 +2,7 @@ using System;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+
 public class playerMotion : MonoBehaviour
 {
     private Rigidbody2D _rb;
@@ -20,10 +21,12 @@ public class playerMotion : MonoBehaviour
     void Moving()
     {
         _rb.linearVelocityX = xDir * xSpeed * Time.deltaTime;
+        
     }
 
     void FixedUpdate()
     {
         Moving();
+        
     }
 }
