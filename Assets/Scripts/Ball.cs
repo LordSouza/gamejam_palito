@@ -3,7 +3,7 @@ using UnityEngine;
 public class Ball : MonoBehaviour
 {
     public float speed = 200.0f;
-    
+    [SerializeField] Transform posicaoRespawn;
     private Rigidbody2D _rb;
 
     private void Awake()
@@ -12,6 +12,13 @@ public class Ball : MonoBehaviour
     }
     private void Start()
     {
+        ResetPosition();
+    }
+
+    public void ResetPosition()
+    {
+        _rb.linearVelocity = Vector2.zero;
+        _rb.position = posicaoRespawn.position;
         AddStartingMovement();
     }
 
