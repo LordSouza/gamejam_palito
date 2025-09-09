@@ -12,6 +12,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloco level 1
       objectReference: {fileID: 0}
+    - target: {fileID: 3007781230722681755, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: m_Size.x
+      value: 0.31234622
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007781230722681755, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: m_Size.y
+      value: 0.08231342
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007781230722681755, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.000000067055225
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007781230722681755, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.0020445958
+      objectReference: {fileID: 0}
     - target: {fileID: 4344888725702752079, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
       propertyPath: m_Size.x
       value: 0.32
