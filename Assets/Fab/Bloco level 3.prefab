@@ -12,6 +12,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Bloco level 3
       objectReference: {fileID: 0}
+    - target: {fileID: 3489470168544044942, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0.218
+      objectReference: {fileID: 0}
     - target: {fileID: 4344888725702752079, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
       propertyPath: m_Size.x
       value: 0.32

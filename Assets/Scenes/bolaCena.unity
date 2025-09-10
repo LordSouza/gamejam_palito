@@ -469,6 +469,58 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1117692779
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1117692781}
+  - component: {fileID: 1117692780}
+  m_Layer: 0
+  m_Name: BlocoSparner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1117692780
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117692779}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e96f5f1ef09fd024684b4b23172ff628, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::BlocoController
+  quantityBlocos: 8
+  blocksPrefabs:
+  - {fileID: 4795098211388085224, guid: 48bbfc97975935148b00a4085e28cba2, type: 3}
+  - {fileID: 756236303131025563, guid: 1e52e6b29b016ab40abe92717ce929ca, type: 3}
+  - {fileID: 957472089331722298, guid: 12760521359ad0b408fdb4b4ee3a95cc, type: 3}
+  - {fileID: 5593096057065773647, guid: 56ef864b774bd594c8e5b0bdb924c17c, type: 3}
+  - {fileID: 6658829661636045388, guid: e9cd56693b633e74a8e8ee6fcc698f77, type: 3}
+  - {fileID: 6084895108383721676, guid: 377ae04d4b6c6de4f9a82b69b20a98a9, type: 3}
+--- !u!4 &1117692781
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1117692779}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: -7, y: -1, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1407026309
 GameObject:
   m_ObjectHideFlags: 0
@@ -571,8 +623,8 @@ MonoBehaviour:
       m_Calls: []
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
-  m_DefaultControlScheme: Keyboard&Mouse
-  m_DefaultActionMap: df70fa95-8a34-4494-b137-73ab6b9c7d37
+  m_DefaultControlScheme: 
+  m_DefaultActionMap: 
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &1520075110
@@ -667,58 +719,6 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 1.5095577, y: 12.393459}
   m_EdgeRadius: 0
---- !u!1 &1614441325
-GameObject:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 1614441327}
-  - component: {fileID: 1614441326}
-  m_Layer: 0
-  m_Name: BlocoSparner
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 0
-  m_IsActive: 1
---- !u!114 &1614441326
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614441325}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e96f5f1ef09fd024684b4b23172ff628, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::BlocoController
-  quantityBlocos: 8
-  blocksPrefabs:
-  - {fileID: 4795098211388085224, guid: 48bbfc97975935148b00a4085e28cba2, type: 3}
-  - {fileID: 756236303131025563, guid: 1e52e6b29b016ab40abe92717ce929ca, type: 3}
-  - {fileID: 957472089331722298, guid: 12760521359ad0b408fdb4b4ee3a95cc, type: 3}
-  - {fileID: 5593096057065773647, guid: 56ef864b774bd594c8e5b0bdb924c17c, type: 3}
-  - {fileID: 6658829661636045388, guid: e9cd56693b633e74a8e8ee6fcc698f77, type: 3}
-  - {fileID: 6084895108383721676, guid: 377ae04d4b6c6de4f9a82b69b20a98a9, type: 3}
---- !u!4 &1614441327
-Transform:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1614441325}
-  serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7, y: -1, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_ConstrainProportionsScale: 0
-  m_Children: []
-  m_Father: {fileID: 0}
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1833009201
 GameObject:
   m_ObjectHideFlags: 0
@@ -1084,6 +1084,6 @@ SceneRoots:
   - {fileID: 4037680}
   - {fileID: 4804313846668091016}
   - {fileID: 1845347694}
-  - {fileID: 1614441327}
+  - {fileID: 1117692781}
   - {fileID: 1407026311}
   - {fileID: 188401450}

@@ -88,9 +88,9 @@
                     "initialStateCheck": false
                 },
                 {
-                    "name": "Leave",
+                    "name": "KillAction",
                     "type": "Button",
-                    "id": "73c8d144-f461-4636-b7db-89d0ced32df4",
+                    "id": "03f1c40f-8da4-4d58-a825-baaf2f53c741",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -485,12 +485,12 @@
                 },
                 {
                     "name": "",
-                    "id": "24c315b6-6a46-4cc1-b3ab-fa66a2b28487",
-                    "path": "<Keyboard>/escape",
+                    "id": "c6c46c0c-5261-4eb3-a63b-5349f22d5e12",
+                    "path": "<Keyboard>/backspace",
                     "interactions": "",
                     "processors": "",
-                    "groups": ";Keyboard&Mouse;XR;Joystick;Touch;Gamepad",
-                    "action": "Leave",
+                    "groups": "",
+                    "action": "KillAction",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
