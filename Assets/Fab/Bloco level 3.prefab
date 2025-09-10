@@ -8,9 +8,33 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 256315811780032365, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: blocksPrefabs.Array.size
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 256315811780032365, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: 'blocksPrefabs.Array.data[2]'
+      value: 
+      objectReference: {fileID: 957472089331722298}
+    - target: {fileID: 256315811780032365, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: 'blocksPrefabs.Array.data[3]'
+      value: 
+      objectReference: {fileID: 5593096057065773647, guid: 56ef864b774bd594c8e5b0bdb924c17c, type: 3}
+    - target: {fileID: 256315811780032365, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: 'blocksPrefabs.Array.data[4]'
+      value: 
+      objectReference: {fileID: 6658829661636045388, guid: e9cd56693b633e74a8e8ee6fcc698f77, type: 3}
+    - target: {fileID: 256315811780032365, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: 'blocksPrefabs.Array.data[5]'
+      value: 
+      objectReference: {fileID: 6084895108383721676, guid: 377ae04d4b6c6de4f9a82b69b20a98a9, type: 3}
     - target: {fileID: 1596406668188908201, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
       propertyPath: m_Name
       value: Bloco level 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3007781230722681755, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+      propertyPath: m_Offset.y
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4344888725702752079, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
       propertyPath: m_Size.x
@@ -73,3 +97,8 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+--- !u!1 &957472089331722298 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1596406668188908201, guid: c89494b21a74f344f9d42fb1baa75ee7, type: 3}
+  m_PrefabInstance: {fileID: 1976531179616146067}
+  m_PrefabAsset: {fileID: 0}
